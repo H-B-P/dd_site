@@ -248,16 +248,17 @@ Pe,com.badlogic.gdx.backends.gwt.GwtInput::getMouseWheelEvent()Ljava/lang/String
 Qe,com.badlogic.gdx.backends.gwt.GwtInput::handleEvent(Lcom/google/gwt/dom/client/NativeEvent;)V,com.badlogic.gdx.backends.gwt.GwtInput,handleEvent,com/badlogic/gdx/backends/gwt/GwtInput.java,516,0
 e,com.badlogic.gdx.backends.gwt.GwtInput::hasFocus,com.badlogic.gdx.backends.gwt.GwtInput,hasFocus,com/badlogic/gdx/backends/gwt/GwtInput.java,59,-1
 f,com.badlogic.gdx.backends.gwt.GwtInput::justPressedKeys,com.badlogic.gdx.backends.gwt.GwtInput,justPressedKeys,com/badlogic/gdx/backends/gwt/GwtInput.java,53,-1
+g,com.badlogic.gdx.backends.gwt.GwtInput::justTouched,com.badlogic.gdx.backends.gwt.GwtInput,justTouched,com/badlogic/gdx/backends/gwt/GwtInput.java,41,-1
 Re,com.badlogic.gdx.backends.gwt.GwtInput::keyForCode(I)I,com.badlogic.gdx.backends.gwt.GwtInput,keyForCode,com/badlogic/gdx/backends/gwt/GwtInput.java,738,0
-g,com.badlogic.gdx.backends.gwt.GwtInput::keyJustPressed,com.badlogic.gdx.backends.gwt.GwtInput,keyJustPressed,com/badlogic/gdx/backends/gwt/GwtInput.java,52,-1
-i,com.badlogic.gdx.backends.gwt.GwtInput::pressedButtons,com.badlogic.gdx.backends.gwt.GwtInput,pressedButtons,com/badlogic/gdx/backends/gwt/GwtInput.java,48,-1
-j,com.badlogic.gdx.backends.gwt.GwtInput::pressedKeyCount,com.badlogic.gdx.backends.gwt.GwtInput,pressedKeyCount,com/badlogic/gdx/backends/gwt/GwtInput.java,49,-1
-k,com.badlogic.gdx.backends.gwt.GwtInput::pressedKeySet,com.badlogic.gdx.backends.gwt.GwtInput,pressedKeySet,com/badlogic/gdx/backends/gwt/GwtInput.java,50,-1
-n,com.badlogic.gdx.backends.gwt.GwtInput::pressedKeys,com.badlogic.gdx.backends.gwt.GwtInput,pressedKeys,com/badlogic/gdx/backends/gwt/GwtInput.java,51,-1
-o,com.badlogic.gdx.backends.gwt.GwtInput::touchMap,com.badlogic.gdx.backends.gwt.GwtInput,touchMap,com/badlogic/gdx/backends/gwt/GwtInput.java,42,-1
-p,com.badlogic.gdx.backends.gwt.GwtInput::touchX,com.badlogic.gdx.backends.gwt.GwtInput,touchX,com/badlogic/gdx/backends/gwt/GwtInput.java,44,-1
-q,com.badlogic.gdx.backends.gwt.GwtInput::touchY,com.badlogic.gdx.backends.gwt.GwtInput,touchY,com/badlogic/gdx/backends/gwt/GwtInput.java,45,-1
-r,com.badlogic.gdx.backends.gwt.GwtInput::touched,com.badlogic.gdx.backends.gwt.GwtInput,touched,com/badlogic/gdx/backends/gwt/GwtInput.java,43,-1
+i,com.badlogic.gdx.backends.gwt.GwtInput::keyJustPressed,com.badlogic.gdx.backends.gwt.GwtInput,keyJustPressed,com/badlogic/gdx/backends/gwt/GwtInput.java,52,-1
+j,com.badlogic.gdx.backends.gwt.GwtInput::pressedButtons,com.badlogic.gdx.backends.gwt.GwtInput,pressedButtons,com/badlogic/gdx/backends/gwt/GwtInput.java,48,-1
+k,com.badlogic.gdx.backends.gwt.GwtInput::pressedKeyCount,com.badlogic.gdx.backends.gwt.GwtInput,pressedKeyCount,com/badlogic/gdx/backends/gwt/GwtInput.java,49,-1
+n,com.badlogic.gdx.backends.gwt.GwtInput::pressedKeySet,com.badlogic.gdx.backends.gwt.GwtInput,pressedKeySet,com/badlogic/gdx/backends/gwt/GwtInput.java,50,-1
+o,com.badlogic.gdx.backends.gwt.GwtInput::pressedKeys,com.badlogic.gdx.backends.gwt.GwtInput,pressedKeys,com/badlogic/gdx/backends/gwt/GwtInput.java,51,-1
+p,com.badlogic.gdx.backends.gwt.GwtInput::touchMap,com.badlogic.gdx.backends.gwt.GwtInput,touchMap,com/badlogic/gdx/backends/gwt/GwtInput.java,42,-1
+q,com.badlogic.gdx.backends.gwt.GwtInput::touchX,com.badlogic.gdx.backends.gwt.GwtInput,touchX,com/badlogic/gdx/backends/gwt/GwtInput.java,44,-1
+r,com.badlogic.gdx.backends.gwt.GwtInput::touchY,com.badlogic.gdx.backends.gwt.GwtInput,touchY,com/badlogic/gdx/backends/gwt/GwtInput.java,45,-1
+s,com.badlogic.gdx.backends.gwt.GwtInput::touched,com.badlogic.gdx.backends.gwt.GwtInput,touched,com/badlogic/gdx/backends/gwt/GwtInput.java,43,-1
 GwtMusic,,com.badlogic.gdx.backends.gwt.GwtMusic,,com/badlogic/gdx/backends/gwt/GwtMusic.java,28,-1
 Se,com.badlogic.gdx.backends.gwt.GwtMusic::$isPlaying(Lcom/badlogic/gdx/backends/gwt/GwtMusic;)Z,com.badlogic.gdx.backends.gwt.GwtMusic,$isPlaying,com/badlogic/gdx/backends/gwt/GwtMusic.java,76,0
 Te,com.badlogic.gdx.backends.gwt.GwtMusic::$pause(Lcom/badlogic/gdx/backends/gwt/GwtMusic;)V,com.badlogic.gdx.backends.gwt.GwtMusic,$pause,com/badlogic/gdx/backends/gwt/GwtMusic.java,64,0
@@ -16551,7 +16552,7 @@ ece,com.google.gwt.lang.ClassLiteralHolder::Lcom_hbp_dd_objects_Explosion_2_clas
 fce,com.google.gwt.lang.ClassLiteralHolder::Lcom_hbp_dd_objects_Mine_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lcom_hbp_dd_objects_Mine_2_classLit,com/hbp/dd/objects/Mine.java,6,-1
 gce,com.google.gwt.lang.ClassLiteralHolder::Lcom_hbp_dd_objects_Probe_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lcom_hbp_dd_objects_Probe_2_classLit,com/hbp/dd/objects/Probe.java,7,-1
 hce,com.google.gwt.lang.ClassLiteralHolder::Lcom_hbp_dd_screens_GameScreen_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lcom_hbp_dd_screens_GameScreen_2_classLit,com/hbp/dd/screens/GameScreen.java,23,-1
-ice,com.google.gwt.lang.ClassLiteralHolder::Lcom_hbp_dd_screens_Level1_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lcom_hbp_dd_screens_Level1_2_classLit,com/hbp/dd/screens/Level1.java,11,-1
+ice,com.google.gwt.lang.ClassLiteralHolder::Lcom_hbp_dd_screens_Level1_1noreminder_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lcom_hbp_dd_screens_Level1_1noreminder_2_classLit,com/hbp/dd/screens/Level1_noreminder.java,8,-1
 jce,com.google.gwt.lang.ClassLiteralHolder::Lcom_hbp_dd_screens_Level2_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lcom_hbp_dd_screens_Level2_2_classLit,com/hbp/dd/screens/Level2.java,10,-1
 kce,com.google.gwt.lang.ClassLiteralHolder::Lcom_hbp_dd_screens_Level3_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lcom_hbp_dd_screens_Level3_2_classLit,com/hbp/dd/screens/Level3.java,10,-1
 lce,com.google.gwt.lang.ClassLiteralHolder::Lcom_hbp_dd_screens_Level4_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lcom_hbp_dd_screens_Level4_2_classLit,com/hbp/dd/screens/Level4.java,10,-1
@@ -17179,7 +17180,7 @@ a,com.google.web.bindery.event.shared.UmbrellaException::causes,com.google.web.b
 PYd,com.google.web.bindery.event.shared.UmbrellaException::makeMessage(Ljava/util/Set;)Ljava/lang/String;,com.google.web.bindery.event.shared.UmbrellaException,makeMessage,com/google/web/bindery/event/shared/UmbrellaException.java,39,0
 DifferentialDodger,,com.hbp.dd.DifferentialDodger,,com/hbp/dd/DifferentialDodger.java,21,-1
 Eke,com.hbp.dd.DifferentialDodger::$create(Lcom/hbp/dd/DifferentialDodger;)V,com.hbp.dd.DifferentialDodger,$create,com/hbp/dd/DifferentialDodger.java,24,0
-Fke,com.hbp.dd.DifferentialDodger::$render(Lcom/hbp/dd/DifferentialDodger;)V,com.hbp.dd.DifferentialDodger,$render,com/hbp/dd/DifferentialDodger.java,38,0
+Fke,com.hbp.dd.DifferentialDodger::$render(Lcom/hbp/dd/DifferentialDodger;)V,com.hbp.dd.DifferentialDodger,$render,com/hbp/dd/DifferentialDodger.java,39,0
 Gke,com.hbp.dd.DifferentialDodger::DifferentialDodger() <init>,com.hbp.dd.DifferentialDodger,DifferentialDodger,com/hbp/dd/DifferentialDodger.java,21,0
 HtmlLauncher,,com.hbp.dd.client.HtmlLauncher,,com/hbp/dd/client/HtmlLauncher.java,8,-1
 Hke,com.hbp.dd.client.HtmlLauncher::HtmlLauncher() <init>,com.hbp.dd.client.HtmlLauncher,HtmlLauncher,com/hbp/dd/client/HtmlLauncher.java,8,0
@@ -17347,14 +17348,14 @@ Mme,com.hbp.dd.resources.Textures$Mine::west,com.hbp.dd.resources.Textures$Mine,
 Nme,com.hbp.dd.resources.Textures$Mine::westerly,com.hbp.dd.resources.Textures$Mine,westerly,com/hbp/dd/resources/Textures.java,24,-1
 GameScreen,,com.hbp.dd.screens.GameScreen,,com/hbp/dd/screens/GameScreen.java,23,-1
 Pme,com.hbp.dd.screens.GameScreen::$check_for_collisions_with_a_proberect(Lcom/hbp/dd/screens/GameScreen;Lcom/badlogic/gdx/math/Rectangle;)V,com.hbp.dd.screens.GameScreen,$check_for_collisions_with_a_proberect,com/hbp/dd/screens/GameScreen.java,737,0
-Qme,com.hbp.dd.screens.GameScreen::$check_for_dead_explosions(Lcom/hbp/dd/screens/GameScreen;)V,com.hbp.dd.screens.GameScreen,$check_for_dead_explosions,com/hbp/dd/screens/GameScreen.java,763,0
-Rme,com.hbp.dd.screens.GameScreen::$check_for_dead_mines(Lcom/hbp/dd/screens/GameScreen;)V,com.hbp.dd.screens.GameScreen,$check_for_dead_mines,com/hbp/dd/screens/GameScreen.java,755,0
+Qme,com.hbp.dd.screens.GameScreen::$check_for_dead_explosions(Lcom/hbp/dd/screens/GameScreen;)V,com.hbp.dd.screens.GameScreen,$check_for_dead_explosions,com/hbp/dd/screens/GameScreen.java,766,0
+Rme,com.hbp.dd.screens.GameScreen::$check_for_dead_mines(Lcom/hbp/dd/screens/GameScreen;)V,com.hbp.dd.screens.GameScreen,$check_for_dead_mines,com/hbp/dd/screens/GameScreen.java,758,0
 Sme,com.hbp.dd.screens.GameScreen::$draw_explosions(Lcom/hbp/dd/screens/GameScreen;)V,com.hbp.dd.screens.GameScreen,$draw_explosions,com/hbp/dd/screens/GameScreen.java,447,0
 Tme,com.hbp.dd.screens.GameScreen::$draw_mines(Lcom/hbp/dd/screens/GameScreen;)V,com.hbp.dd.screens.GameScreen,$draw_mines,com/hbp/dd/screens/GameScreen.java,357,0
 Ume,com.hbp.dd.screens.GameScreen::$draw_probe(Lcom/hbp/dd/screens/GameScreen;)V,com.hbp.dd.screens.GameScreen,$draw_probe,com/hbp/dd/screens/GameScreen.java,410,0
 Vme,com.hbp.dd.screens.GameScreen::$draw_tex_overlap(Lcom/hbp/dd/screens/GameScreen;Lcom/badlogic/gdx/math/Rectangle;Lcom/badlogic/gdx/graphics/Texture;)V,com.hbp.dd.screens.GameScreen,$draw_tex_overlap,com/hbp/dd/screens/GameScreen.java,422,0
 Wme,com.hbp.dd.screens.GameScreen::$game_render(Lcom/hbp/dd/screens/GameScreen;F)V,com.hbp.dd.screens.GameScreen,$game_render,com/hbp/dd/screens/GameScreen.java,83,0
-Xme,com.hbp.dd.screens.GameScreen::$handle_pauses(Lcom/hbp/dd/screens/GameScreen;)V,com.hbp.dd.screens.GameScreen,$handle_pauses,com/hbp/dd/screens/GameScreen.java,824,0
+Xme,com.hbp.dd.screens.GameScreen::$handle_pauses(Lcom/hbp/dd/screens/GameScreen;)V,com.hbp.dd.screens.GameScreen,$handle_pauses,com/hbp/dd/screens/GameScreen.java,827,0
 Yme,com.hbp.dd.screens.GameScreen::$spawnAccelMineEDown(Lcom/hbp/dd/screens/GameScreen;F)V,com.hbp.dd.screens.GameScreen,$spawnAccelMineEDown,com/hbp/dd/screens/GameScreen.java,623,0
 Zme,com.hbp.dd.screens.GameScreen::$spawnAccelMineEUp(Lcom/hbp/dd/screens/GameScreen;F)V,com.hbp.dd.screens.GameScreen,$spawnAccelMineEUp,com/hbp/dd/screens/GameScreen.java,630,0
 $me,com.hbp.dd.screens.GameScreen::$spawnAccelMineN(Lcom/hbp/dd/screens/GameScreen;F)V,com.hbp.dd.screens.GameScreen,$spawnAccelMineN,com/hbp/dd/screens/GameScreen.java,608,0
@@ -17393,7 +17394,7 @@ c,com.hbp.dd.screens.GameScreen::defaultGameSpeed,com.hbp.dd.screens.GameScreen,
 Dne,com.hbp.dd.screens.GameScreen::draw_messages()V,com.hbp.dd.screens.GameScreen,draw_messages,com/hbp/dd/screens/GameScreen.java,460,0
 Ene,com.hbp.dd.screens.GameScreen::eventuate_events(F)V,com.hbp.dd.screens.GameScreen,eventuate_events,com/hbp/dd/screens/GameScreen.java,117,0
 d,com.hbp.dd.screens.GameScreen::explosions,com.hbp.dd.screens.GameScreen,explosions,com/hbp/dd/screens/GameScreen.java,34,-1
-Fne,com.hbp.dd.screens.GameScreen::handle_level_exit()V,com.hbp.dd.screens.GameScreen,handle_level_exit,com/hbp/dd/screens/GameScreen.java,817,0
+Fne,com.hbp.dd.screens.GameScreen::handle_level_exit()V,com.hbp.dd.screens.GameScreen,handle_level_exit,com/hbp/dd/screens/GameScreen.java,820,0
 e,com.hbp.dd.screens.GameScreen::inputX,com.hbp.dd.screens.GameScreen,inputX,com/hbp/dd/screens/GameScreen.java,40,-1
 f,com.hbp.dd.screens.GameScreen::inputY,com.hbp.dd.screens.GameScreen,inputY,com/hbp/dd/screens/GameScreen.java,41,-1
 g,com.hbp.dd.screens.GameScreen::intersection,com.hbp.dd.screens.GameScreen,intersection,com/hbp/dd/screens/GameScreen.java,38,-1
@@ -17402,16 +17403,16 @@ j,com.hbp.dd.screens.GameScreen::playerControl,com.hbp.dd.screens.GameScreen,pla
 k,com.hbp.dd.screens.GameScreen::prettySpeed,com.hbp.dd.screens.GameScreen,prettySpeed,com/hbp/dd/screens/GameScreen.java,29,-1
 n,com.hbp.dd.screens.GameScreen::probe,com.hbp.dd.screens.GameScreen,probe,com/hbp/dd/screens/GameScreen.java,36,-1
 o,com.hbp.dd.screens.GameScreen::realityBox,com.hbp.dd.screens.GameScreen,realityBox,com/hbp/dd/screens/GameScreen.java,27,-1
-Gne,com.hbp.dd.screens.GameScreen::restart_level()V,com.hbp.dd.screens.GameScreen,restart_level,com/hbp/dd/screens/GameScreen.java,784,0
+Gne,com.hbp.dd.screens.GameScreen::restart_level()V,com.hbp.dd.screens.GameScreen,restart_level,com/hbp/dd/screens/GameScreen.java,787,0
 p,com.hbp.dd.screens.GameScreen::theBGM,com.hbp.dd.screens.GameScreen,theBGM,com/hbp/dd/screens/GameScreen.java,51,-1
 Hne,com.hbp.dd.screens.GameScreen::update_probe(F)V,com.hbp.dd.screens.GameScreen,update_probe,com/hbp/dd/screens/GameScreen.java,719,0
 q,com.hbp.dd.screens.GameScreen::warpness,com.hbp.dd.screens.GameScreen,warpness,com/hbp/dd/screens/GameScreen.java,45,-1
-Level1,,com.hbp.dd.screens.Level1,,com/hbp/dd/screens/Level1.java,11,-1
-Ine,com.hbp.dd.screens.Level1::Level1(Lcom/hbp/dd/DifferentialDodger;FZ) <init>,com.hbp.dd.screens.Level1,Level1,com/hbp/dd/screens/Level1.java,13,0
-Jne,com.hbp.dd.screens.Level1::draw_messages()V,com.hbp.dd.screens.Level1,draw_messages,com/hbp/dd/screens/Level1.java,154,0
-Kne,com.hbp.dd.screens.Level1::eventuate_events(F)V,com.hbp.dd.screens.Level1,eventuate_events,com/hbp/dd/screens/Level1.java,18,0
-Lne,com.hbp.dd.screens.Level1::handle_level_exit()V,com.hbp.dd.screens.Level1,handle_level_exit,com/hbp/dd/screens/Level1.java,167,0
-Mne,com.hbp.dd.screens.Level1::restart_level()V,com.hbp.dd.screens.Level1,restart_level,com/hbp/dd/screens/Level1.java,147,0
+Level1_noreminder,,com.hbp.dd.screens.Level1_noreminder,,com/hbp/dd/screens/Level1_noreminder.java,8,-1
+Ine,com.hbp.dd.screens.Level1_noreminder::Level1_noreminder(Lcom/hbp/dd/DifferentialDodger;FZ) <init>,com.hbp.dd.screens.Level1_noreminder,Level1_noreminder,com/hbp/dd/screens/Level1_noreminder.java,10,0
+Jne,com.hbp.dd.screens.Level1_noreminder::draw_messages()V,com.hbp.dd.screens.Level1_noreminder,draw_messages,com/hbp/dd/screens/Level1_noreminder.java,151,0
+Kne,com.hbp.dd.screens.Level1_noreminder::eventuate_events(F)V,com.hbp.dd.screens.Level1_noreminder,eventuate_events,com/hbp/dd/screens/Level1_noreminder.java,15,0
+Lne,com.hbp.dd.screens.Level1_noreminder::handle_level_exit()V,com.hbp.dd.screens.Level1_noreminder,handle_level_exit,com/hbp/dd/screens/Level1_noreminder.java,164,0
+Mne,com.hbp.dd.screens.Level1_noreminder::restart_level()V,com.hbp.dd.screens.Level1_noreminder,restart_level,com/hbp/dd/screens/Level1_noreminder.java,144,0
 Level2,,com.hbp.dd.screens.Level2,,com/hbp/dd/screens/Level2.java,10,-1
 Nne,com.hbp.dd.screens.Level2::Level2(Lcom/hbp/dd/DifferentialDodger;F) <init>,com.hbp.dd.screens.Level2,Level2,com/hbp/dd/screens/Level2.java,12,0
 One,com.hbp.dd.screens.Level2::choose_music()V,com.hbp.dd.screens.Level2,choose_music,com/hbp/dd/screens/Level2.java,17,0
@@ -17464,12 +17465,12 @@ a,com.hbp.dd.screens.Level7::tries,com.hbp.dd.screens.Level7,tries,com/hbp/dd/sc
 Aoe,com.hbp.dd.screens.Level7::update_probe(F)V,com.hbp.dd.screens.Level7,update_probe,com/hbp/dd/screens/Level7.java,24,0
 Level8,,com.hbp.dd.screens.Level8,,com/hbp/dd/screens/Level8.java,10,-1
 Boe,com.hbp.dd.screens.Level8::Level8(Lcom/hbp/dd/DifferentialDodger;F) <init>,com.hbp.dd.screens.Level8,Level8,com/hbp/dd/screens/Level8.java,12,0
-Coe,com.hbp.dd.screens.Level8::choose_music()V,com.hbp.dd.screens.Level8,choose_music,com/hbp/dd/screens/Level8.java,19,0
-Doe,com.hbp.dd.screens.Level8::draw_messages()V,com.hbp.dd.screens.Level8,draw_messages,com/hbp/dd/screens/Level8.java,478,0
-Eoe,com.hbp.dd.screens.Level8::eventuate_events(F)V,com.hbp.dd.screens.Level8,eventuate_events,com/hbp/dd/screens/Level8.java,73,0
-Foe,com.hbp.dd.screens.Level8::handle_level_exit()V,com.hbp.dd.screens.Level8,handle_level_exit,com/hbp/dd/screens/Level8.java,506,0
-Goe,com.hbp.dd.screens.Level8::restart_level()V,com.hbp.dd.screens.Level8,restart_level,com/hbp/dd/screens/Level8.java,472,0
-Hoe,com.hbp.dd.screens.Level8::update_probe(F)V,com.hbp.dd.screens.Level8,update_probe,com/hbp/dd/screens/Level8.java,24,0
+Coe,com.hbp.dd.screens.Level8::choose_music()V,com.hbp.dd.screens.Level8,choose_music,com/hbp/dd/screens/Level8.java,17,0
+Doe,com.hbp.dd.screens.Level8::draw_messages()V,com.hbp.dd.screens.Level8,draw_messages,com/hbp/dd/screens/Level8.java,476,0
+Eoe,com.hbp.dd.screens.Level8::eventuate_events(F)V,com.hbp.dd.screens.Level8,eventuate_events,com/hbp/dd/screens/Level8.java,71,0
+Foe,com.hbp.dd.screens.Level8::handle_level_exit()V,com.hbp.dd.screens.Level8,handle_level_exit,com/hbp/dd/screens/Level8.java,504,0
+Goe,com.hbp.dd.screens.Level8::restart_level()V,com.hbp.dd.screens.Level8,restart_level,com/hbp/dd/screens/Level8.java,470,0
+Hoe,com.hbp.dd.screens.Level8::update_probe(F)V,com.hbp.dd.screens.Level8,update_probe,com/hbp/dd/screens/Level8.java,22,0
 MetaScreen,,com.hbp.dd.screens.MetaScreen,,com/hbp/dd/screens/MetaScreen.java,17,-1
 Ome,com.hbp.dd.screens.MetaScreen::$resize(Lcom/hbp/dd/screens/MetaScreen;II)V,com.hbp.dd.screens.MetaScreen,$resize,com/hbp/dd/screens/MetaScreen.java,87,0
 r,com.hbp.dd.screens.MetaScreen::GAMESPEED,com.hbp.dd.screens.MetaScreen,GAMESPEED,com/hbp/dd/screens/MetaScreen.java,27,-1

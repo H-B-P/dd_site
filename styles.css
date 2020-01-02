@@ -11,9 +11,8 @@ body {
     border: 0px;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
-
-
 
 .superdev {
     color: rgb(37,37,37);
